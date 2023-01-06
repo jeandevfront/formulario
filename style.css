@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    height: 100vh;
+}
+
+.titulo h3{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.formulario {
+    background-color: rgb(247, 252, 255);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 10px 11px 20px 2px #979797;
+}
+
+.informacoes-pessoais .nome,.sobrenome,.email,.senha{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 4px;
+}
+
+.informacoes-pessoais .email,.senha{
+    width: 93%;
+}
+
+.data-nascimento,.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.dia,.mes,.ano,.radiobox{
+    padding: 7px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0 0 0;   
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    margin: 10px 0 0 0;
+    font-size: 18px;
+}
+
+.box .radiobox{
+    background-color: #fff;
+    margin: 10px 0 10px 0;
+    border: rgb(116, 114, 114) solid 1px;
+}
+
+.botao{
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.botao input{
+    padding: 12px;
+    width: 200px;
+    background-color: rgb(3, 88, 88);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.botao input:hover{
+    background-color: rgb(10, 168, 115);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+p,.text{
+    width: 43vh;
+    font-size: 12px;
+    text-indent: 1.5em;
+}
